@@ -1,0 +1,68 @@
+!:root {
+    --primary-text-color: #212121;
+    --title-text-color: #212121;
+    --accent-color: color: #757575;
+}
+
+body {
+background: #F5F5F5;
+color: var(--primary-text-color)
+}
+
+.webstudio-top {
+color: #000000;
+}
+.web {
+color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+/* site-nav */
+.site-nav, .portfolio, .contacts
+ {
+    color: #212121;
+}
+.link {
+    color: #2196F3;
+}
+.link:focus {
+color: #212121;
+}
+.site-nav, .link, .current {
+    color: #212121;
+}
+/* hero */
+.hero-title {
+
+}
+
+/* section */
+.section-title {
+color: var(--title-text-color)
+}
+
+/* features */
+.features, title {
+color: var(--title-text-color)
+}
+
+/* button */
+button {
+    color: #FFFFFF;
+    background: #2196F3;
+     border-color: #2196F3;
+}
+
+/* колір тексту: заголовки color: #212121; 
+для параграфів та номер телефону color: #757575;
+webstudio зверху  color: #2196F3;color: #000000;
+студія та емейл  color: #2196F3;
+портфоліо та контакти color: #212121; */ 
+/* вебстудіо знизу color: #2196F3;
+адреса на карту гугл color: #FFFFFF;
+емейл і тел знизу color: rgba(255, 255, 255, 0.6); */
+
+
+
