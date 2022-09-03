@@ -10,7 +10,7 @@ webstudio зверху  color: #2196F3;color: #000000;
 :root {
     --primary-text-color: #212121;
     --title-text-color: #212121;
-    --accent-color: color: #757575;
+    --accent-color: #757575; 
 }
 
 body {
@@ -52,7 +52,8 @@ ul {
         letter-spacing: 0.02em;
 }
 
-.site-nav, .contacts, .current {
+.site-nav, .contacts, .current, 
+.email, .telephone {
     color: #212121;
 }
 
@@ -83,7 +84,7 @@ color: var(--title-text-color);
 }
 
 /* features */
-.features, title {
+.features, .title {
 color: var(--title-text-color);
 font-weight: 700;
     font-size: 14px;
@@ -91,8 +92,8 @@ font-weight: 700;
     text-transform: uppercase;
 }
 
-.features, text {
-    color: #757575;
+.features, .text {
+    color: var(--accent-color);
     font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -108,16 +109,12 @@ button {
         line-height: 1.88;
         letter-spacing: 0.06em;
 }
-
+.pointer {
+     cursor: pointer;
+}
 
 
 
 
 
 /* Сторінка Portfolio */
-/* button */
-button {
-    color: #FFFFFF;
-        background: #2196F3;
-        border-color: #2196F3;
-}
