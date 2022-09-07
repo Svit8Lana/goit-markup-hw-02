@@ -17,11 +17,13 @@ webstudio зверху  color: #2196F3;color: #000000;
     --accent-color-rgba: rgba(255, 255, 255, 0.6);
     --accent-color-emailink: rgba(255, 255, 255, 1);
     --accent-color-hero: #2F303A;
+    --accent-color-button: #188CE8;
 } 
 
 body {
 background-color: var(--accent-color-title);
-
+font-family: Roboto, sans-serif;
+color: var(--paragraph-color);
 }
 
 .webstudio-top {
@@ -45,7 +47,6 @@ ul {    list-style: none;}
 
 .link {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -90,13 +91,13 @@ button {
 .pointer:hover,
 .pointer:focus { 
     color: var(--accent-color-web);
-    background-color: var(--accent-color-title);  }
+    background-color: var(--accent-color-button)  }
 
 /* section */
 .sect { font-size: 0px; }
 
 /* features */
-.features, .title {
+.title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -104,9 +105,8 @@ button {
     text-transform: uppercase;
 }
 
-.features, .text {
+.text {
     text-transform: none;
-    color: var(--paragraph-color);
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -122,7 +122,6 @@ button {
 
 .tit { 
     color: var(--title-text-color);
-    font-family: Roboto, sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -130,8 +129,7 @@ button {
  }
 
 /* 757575 */
- .tex { color: var(--paragraph-color);
-    font-family: 'Roboto';
+ .tex { 
     font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
@@ -156,10 +154,12 @@ text-decoration: none }
 
 .address {
    color: var(--accent-color-title);
+   font-style: normal;
 }
 
 .emailink:hover,
-.emailink:focus { color: var(--accent-color-emailink); }
+.emailink:focus { 
+    color: var(--accent-color-web); }
 
 
 /* Сторінка Portfolio */
@@ -169,4 +169,22 @@ text-decoration: none }
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+}
+
+.but {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color-title);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+}
+
+.but:hover, .but:focus {
+    color: var(--accent-color-title);
+    background-color: var(--accent-color-web);
+}
+
+.content {
+    
 }
