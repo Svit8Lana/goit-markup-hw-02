@@ -186,9 +186,6 @@ font-style: normal;
     background-color: var(--accent-color-web);
 }
 
-
-
-
 .link-nav {
 text-decoration: none;
 }
@@ -207,24 +204,4 @@ text-decoration: none;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
-}
-/* .post {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-
-.tex {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-} */
-
-
-
-
-.content {
-    
 }
